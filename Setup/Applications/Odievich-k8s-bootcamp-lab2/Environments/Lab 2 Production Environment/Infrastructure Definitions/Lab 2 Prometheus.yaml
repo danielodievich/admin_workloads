@@ -5,5 +5,5 @@ deploymentType: KUBERNETES
 infrastructure:
 - type: DIRECT_KUBERNETES
   cloudProviderName: odievich-k8s-hyperv-minikube
-  namespace: prometheus
+  namespace: prometheus_gitupdate
   releaseName: release-${infra.kubernetes.infraId}
