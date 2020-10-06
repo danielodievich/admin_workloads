@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: INFRA_DEFINITION
+cloudProviderType: KUBERNETES_CLUSTER
+deploymentType: KUBERNETES
+infrastructure:
+- type: DIRECT_KUBERNETES
+  cloudProviderName: odievich-k8s-hyperv-minikube
+  namespace: odievich
+  releaseName: release-${infra.kubernetes.infraId}

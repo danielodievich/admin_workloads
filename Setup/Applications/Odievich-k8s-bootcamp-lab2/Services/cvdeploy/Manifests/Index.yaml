@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: APPLICATION_MANIFEST
+gitFileConfig:
+  branch: master
+  connectorName: Odievich GIT
+  filePath: cvlab
+  repoName: admin_workloads
+  useBranch: true
+  useInlineServiceDefinition: false
+storeType: Remote
